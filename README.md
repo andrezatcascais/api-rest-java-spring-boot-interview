@@ -72,7 +72,7 @@ Antes de começar, você precisa ter instalado:
 
 1. **Clone o repositório**
 ```bash
-git clone https://github.com/seu-usuario/user-api.git
+git clone https://github.com/andrezatcascais/api-rest-java-spring-boot-interview.git
 cd user-api
 ```
 
