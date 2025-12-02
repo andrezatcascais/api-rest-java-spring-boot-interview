@@ -297,7 +297,7 @@ src/main/java/dev/andie/userapi/
 ├── service/                         # Lógica de negócio
 │   └── UsuarioService.java          # Interface (contrato)
     └── impl/
-        └── UsuarioServiceImpl.java      # Implementação concreta
+        └── UsuarioServiceImpl.java  # Implementação concreta
 └── UserApiApplication.java          # Classe principal
 
 src/main/resources/
@@ -406,8 +406,8 @@ SELECT * FROM usuarios ORDER BY data_criacao DESC;
 
 Melhorias que podem ser implementadas:
 
-- [x] Adicionar testes unitários (JUnit + Mockito)
-- [ ] Implementar testes de integração
+- [x] [Adicionar testes unitários (JUnit + Mockito)](README-JUnitTests.md)
+- [x] [Implementar testes de integração](README-IntegrationTests.md)
 - [ ] Adicionar documentação com Swagger/OpenAPI
 - [ ] Implementar autenticação e autorização (Spring Security)
 - [ ] Migrar para banco de dados persistente (PostgreSQL/MySQL)
